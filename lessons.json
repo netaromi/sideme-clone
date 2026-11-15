@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "type": "code",
+    "title": "הדפסת טקסט למסך",
+    "explanation": "כדי להציג טקסט על המסך משתמשים בפקודה print() ועוטפים את הטקסט במירכאות.",
+    "example": "print('Hi there')",
+    "task": "כתוב פקודה שמדפיסה למסך בדיוק את הטקסט: Hello World",
+    "hint": "השתמש בפקודה print() וכתוב בתוכה 'Hello World' עם מירכאות.",
+    "solution": "print('Hello World')",
+    "starterCode": "# כתוב כאן את הקוד שלך\n",
+    "expectedOutput": "Hello World"
+  },
+  {
+    "id": 2,
+    "type": "code",
+    "title": "חישובים מתמטיים",
+    "explanation": "כדי שהמחשב יחשב תרגיל חשבון, כותבים אותו בתוך print() ללא מירכאות (כפל הוא *, חיבור הוא +).",
+    "example": "print(10 * 2 + 5)",
+    "task": "חשב והדפס למסך את התוצאה של: 12 כפול 5, ועוד 8.",
+    "hint": "שים בתוך print() את הביטוי 12 * 5 + 8 בלי מירכאות.",
+    "solution": "print(12 * 5 + 8)",
+    "starterCode": "# כתוב כאן את הקוד שלך\n",
+    "expectedOutput": "68"
+  },
+  {
+    "id": 3,
+    "type": "code",
+    "title": "יצירה ושימוש במשתנים",
+    "explanation": "משתנה שומר מידע בזיכרון: כותבים שם = ערך. כדי להדפיס את הערך שבתוכו, שמים את שם המשתנה ב-print() ללא מירכאות.",
+    "example": "score = 50\nprint(score)",
+    "task": "בשורה 1: צור משתנה בשם level ושמור בו את המספר 99. בשורה 2: הדפס את המשתנה level למסך.",
+    "hint": "הגדר level = 99 בשורה הראשונה, והדפס print(level) בשורה השנייה.",
+    "solution": "level = 99\nprint(level)",
+    "starterCode": "# צור משתנה והדפס אותו\n",
+    "expectedOutput": "99"
+  },
+  {
+    "id": 4,
+    "type": "code",
+    "title": "חיבור משתנים וטקסט",
+    "explanation": "טקסט בתוך משתנה חייב מירכאות. ב-print() מפרידים בין טקסט למשתנה בעזרת פסיק (,). רק הטקסט מקבל מירכאות.",
+    "example": "hero = 'Alex'\nprint('Hello', hero)",
+    "task": "בשורה 1: צור משתנה בשם player עם הערך 'Dan'. בשורה 2: הדפס יחד את המילה 'Welcome' (במירכאות) ואחריה פסיק ואת המשתנה player (בלי מירכאות).",
+    "hint": "כתוב player = 'Dan' ומתחתיו print('Welcome', player).",
+    "solution": "player = 'Dan'\nprint('Welcome', player)",
+    "starterCode": "# הגדר משתנה והדפס ברכה\n",
+    "expectedOutput": "Welcome Dan"
+  },
+  {
+    "id": 5,
+    "type": "bug",
+    "title": "תיקון באג: המשתנה השבור",
+    "explanation": "המשתנה message שומר הודעה. זכור: פקודת print נכתבת באותיות קטנות, וערך מסוג טקסט חייב מירכאות.",
+    "example": "status = 'Ready'\nprint(status)",
+    "task": "בעורך מופיע קוד עם 2 טעויות. תקן אותן כדי שהקוד ירוץ וידפיס למסך: Game Over",
+    "hint": "עטוף את Game Over במירכאות, ושנה את Print לאות קטנה.",
+    "solution": "message = 'Game Over'\nprint(message)",
+    "starterCode": "# תקן את הבאגים בקוד הבא:\nmessage = Game Over\nPrint(message)",
+    "expectedOutput": "Game Over"
+  },
+  {
+    "id": 6,
+    "type": "bug",
+    "title": "תיקון באג: חישוב הניקוד",
+    "explanation": "המשתנים points (נקודות) ו-bonus (בונוס) מחוברים לתוך total (סך-הכל). כדי לחבר מספרים, אסור לשים סביבם מירכאות.",
+    "example": "a = 10\nb = 20\nsum_all = a + b\nprint(sum_all)",
+    "task": "בקוד שבעורך יש 2 באגים שגורמים לו לקרוס. תקן אותם כדי שהתוכנית תחשב ותדפיס את הסכום: 150",
+    "hint": "הסר את המירכאות מהמספר 50, וסגור את הסוגריים בפקודת ה-print.",
+    "solution": "points = 100\nbonus = 50\ntotal = points + bonus\nprint(total)",
+    "starterCode": "# הקוד הזה קורס! מצא ותקן את הבאגים:\npoints = 100\nbonus = \"50\"\ntotal = points + bonus\nprint(total",
+    "expectedOutput": "150"
+  },
+  {
+    "id": 7,
+    "type": "code",
+    "title": "קבלת החלטות: תנאי if",
+    "explanation": "תנאי נכתב כך: המילה if, הבדיקה (כמו >), ונקודתיים (:) בסוף השורה. בשורה הבאה לוחצים על מקש Tab במקלדת (מעל Caps Lock) — מקש זה דוחף את השורה פנימה ברווח, וכך פייתון מבינה שהפקודה שייכת לתוך התנאי.",
+    "example": "speed = 120\nif speed > 100:\n    print('Fast')",
+    "task": "המשתנה coins כבר מוגדר בעורך (ערכו 80). הוסף מתחתיו תנאי שבודק האם coins גדול מ-50. בשורה הבאה לחץ Tab כדי להזיח פנימה, והדפס בדיוק: Rich",
+    "hint": "כתוב if coins > 50: ורד שורה. ודא שיש רווח (Tab) לפני print('Rich').",
+    "solution": "coins = 80\nif coins > 50:\n    print('Rich')",
+    "starterCode": "coins = 80\n# כתוב כאן את התנאי שלך:\n",
+    "expectedOutput": "Rich"
+  },
+  {
+    "id": 8,
+    "type": "code",
+    "title": "אחרת: שילוב if ו-else",
+    "explanation": "כשהתנאי של if לא מתקיים, משתמשים במילה else: (צמוד לשמאל, בלי רווחים לפניו, ועם נקודתיים בסוף). בשורה שמתחת ל-else לוחצים על מקש Tab כדי להזיח את הפקודה פנימה.",
+    "example": "temp = 10\nif temp >= 20:\n    print('Warm')\nelse:\n    print('Cold')",
+    "task": "המשתנה age כבר מוגדר בעורך (ערכו 15). כתוב בדיקה: אם age גדול או שווה ל-18 (>=), הדפס 'Allowed' (עם Tab). אחרת (else:), הדפס 'Blocked' (עם Tab).",
+    "hint": "השתמש ב-if age >= 18: להדפסת 'Allowed', ומתחתיו צמוד לשמאל כתוב else: להדפסת 'Blocked'.",
+    "solution": "age = 15\nif age >= 18:\n    print('Allowed')\nelse:\n    print('Blocked')",
+    "starterCode": "age = 15\n# כתוב כאן את תנאי ה-if וה-else:\n",
+    "expectedOutput": "Blocked"
+  },
+  {
+    "id": 9,
+    "type": "bug",
+    "title": "תיקון באג: שומר הסף",
+    "explanation": "בדיקת שוויון בתנאי דורשת שווה כפול (==), נקודתיים (:) בסוף שורת ה-if, ולחיצה על מקש Tab בתחילת השורה שמתחת כדי להכניס אותה לתוך התנאי.",
+    "example": "code = '999'\nif code == '999':\n    print('Open')",
+    "task": "המשתנה password שווה '1234'. בקוד שבעורך יש 3 באגים — תקן אותם כדי שהתוכנית תדפיס: Access Granted",
+    "hint": "שנה ל-== בתנאי, הוסף נקודתיים בסוף ה-if, והזח פנימה את ה-print הראשון.",
+    "solution": "password = '1234'\nif password == '1234':\n    print('Access Granted')\nelse:\n    print('Wrong Password')",
+    "starterCode": "password = '1234'\nif password = '1234'\nprint('Access Granted')\nelse:\n    print('Wrong Password')",
+    "expectedOutput": "Access Granted"
+  }
+]
