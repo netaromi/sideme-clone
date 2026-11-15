@@ -2,8 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "קוד-כיף - לומדים תכנות בעברית",
-  description: "פלטפורמה אינטראקטיבית ללימוד פייתון בעברית",
+  title: "קוד-כיף | לימוד תכנות ופייתון בעברית בחינם",
+  description: "למדו לתכנת בפייתון צעד אחר צעד בעברית! פלטפורמה אינטראקטיבית בסגנון משחק עם תרגול קוד חי, תיקון באגים ומנטור אישי.",
+  verification: {
+    google: "CtuEL7hWpELDFrx5zTcWfVNcgfDBQtuao7tpurBgttE",
+  },
 };
 
 export default function RootLayout({
