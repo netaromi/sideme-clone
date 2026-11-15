@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="he" dir="rtl">
       <head>
-        <meta name="google-site-verification" content="CtuEL7hWpELDFrx5zTcWFvNcgfD8Qtuao7tpurBgttE" /> content="CtuEL7hWpELDFrx5zTcWfVNcgfDBQtuao7tpurBgttE" />
+        <meta name="google-site-verification" content="CtuEL7hWpELDFrx5zTcWFvNcgfD8Qtuao7tpurBgttE" />
       </head>
       <body className="bg-slate-900 text-white antialiased">
         {children}
