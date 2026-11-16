@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "קוד-כיף | לימוד תכנות ופייתון בעברית בחינם",
-  description: "למדו לתכנת בפייתון צעד אחר צעד בעברית! פלטפורמה אינטראקטיבית בסגנון משחק עם תרגול קוד חי, תיקון באגים ומנטור אישי.",
+  title: "e4tx | קוד-כיף - לימוד תכנות ופייתון בעברית",
+  description: "e4tx (קוד-כיף) - פלטפורמה אינטראקטיבית ללימוד תכנות ופייתון בעברית צעד אחר צעד.",
+  keywords: ["e4tx", "קוד-כיף", "לימוד פייתון", "לימוד תכנות בעברית"],
 };
 
 export default function RootLayout({
