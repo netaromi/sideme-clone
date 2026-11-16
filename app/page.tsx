@@ -135,8 +135,11 @@ export default function Home() {
     <main className="min-h-screen flex flex-col p-6 max-w-6xl mx-auto">
       <header className="flex justify-between items-center bg-slate-800 p-4 rounded-xl mb-6 border border-slate-700 shadow-lg">
         <div className="flex items-center gap-4">
-          <h1 onClick={() => setView("map")} className="text-2xl font-bold text-emerald-400 cursor-pointer hover:opacity-80">
-            קוד-כיף 🚀
+          <h1 onClick={() => setView("map")} className="text-2xl font-bold text-emerald-400 cursor-pointer hover:opacity-80 flex items-center gap-2">
+            <span>פייתון-בוסט 🚀</span>
+            <span className="text-xs bg-slate-900 text-slate-400 px-2 py-0.5 rounded-md border border-slate-700 font-mono">
+              e4tx
+            </span>
           </h1>
           {view === "lesson" && (
             <button onClick={() => setView("map")} className="text-sm bg-slate-700 hover:bg-slate-600 px-3 py-1.5 rounded-lg text-slate-200 transition cursor-pointer">

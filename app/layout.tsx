@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "e4tx | קוד-כיף - לימוד תכנות ופייתון בעברית",
-  description: "e4tx (קוד-כיף) - פלטפורמה אינטראקטיבית ללימוד תכנות ופייתון בעברית צעד אחר צעד.",
-  keywords: ["e4tx", "קוד-כיף", "לימוד פייתון", "לימוד תכנות בעברית"],
+  title: "פייתון-בוסט (e4tx) | לימוד תכנות ופייתון בעברית",
+  description: "פייתון-בוסט (PyBoost) - פלטפורמה אינטראקטיבית ללימוד תכנות ופייתון בעברית צעד אחר צעד עם מפת שלבים, תיקון באגים ומנטור אישי.",
+  keywords: ["פייתון-בוסט", "PyBoost", "e4tx", "לימוד פייתון", "לימוד תכנות בעברית"],
 };
 
 export default function RootLayout({
